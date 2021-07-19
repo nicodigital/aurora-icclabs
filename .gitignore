@@ -1,0 +1,5 @@
+node_modules
+desktop.ini
+.next
+.next/*
+out/
