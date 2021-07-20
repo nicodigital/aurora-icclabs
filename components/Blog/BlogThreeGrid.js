@@ -7,12 +7,14 @@ class BlogThreeGrid extends Component {
             <section className="blog-area ptb-110">
                 <div className="container">
                     <div className="row">
+
+                        {/* Card */}
                         <div className="col-lg-4 col-md-6">
                             <div className="single-blog-post">
                                 <div className="entry-thumbnail">
                                     <Link href="/blog-details">
                                         <a>
-                                            <img src="/images/blog/blog1.jpg" alt="image" />
+                                            <img src="/images/novedades/thumb.jpg" alt="image" />
                                         </a>
                                     </Link>
                                 </div>
@@ -21,37 +23,42 @@ class BlogThreeGrid extends Component {
                                     <div className="entry-meta">
                                         <ul>
                                             <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
+                                                <Link href="/novedades/#">
+                                                    <a>Aurora</a>
                                                 </Link>
                                             </li>
-                                            <li>March 10, 2020</li>
+                                            <li>Agosto 13, 2021</li>
                                         </ul>
                                     </div>
 
                                     <h3>
                                         <Link href="/blog-details">
-                                            <a>Making Peace With The Feast Or Famine Of Freelancing</a>
+                                            <a className="text-primary">
+                                                Título largo de la noticia en dos líneas
+                                            </a>
                                         </Link>
                                     </h3>
 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+                                    <p>
+                                        El cannabidiol (CDB) es un compuesto que se encuentra en la flor resinosa del cannabis ...
+                                    </p>
                                     
                                     <Link href="/blog-details">
                                         <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
+                                            Leer más <i className="flaticon-add"></i>
                                         </a>
                                     </Link>
                                 </div>
                             </div>
                         </div>
 
+                        {/* Card */}
                         <div className="col-lg-4 col-md-6">
                             <div className="single-blog-post">
                                 <div className="entry-thumbnail">
                                     <Link href="/blog-details">
                                         <a>
-                                            <img src="/images/blog/blog2.jpg" alt="image" />
+                                            <img src="/images/novedades/thumb.jpg" alt="image" />
                                         </a>
                                     </Link>
                                 </div>
@@ -60,36 +67,42 @@ class BlogThreeGrid extends Component {
                                     <div className="entry-meta">
                                         <ul>
                                             <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
+                                                <Link href="/novedades/#">
+                                                    <a>Aurora</a>
                                                 </Link>
                                             </li>
-                                            <li>March 11, 2020</li>
+                                            <li>Agosto 13, 2021</li>
                                         </ul>
                                     </div>
 
                                     <h3>
                                         <Link href="/blog-details">
-                                            <a>I Used The Web For A Day On A 50 MB Budget</a>
+                                            <a className="text-primary">
+                                                Título largo de la noticia en dos líneas
+                                            </a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+
+                                    <p>
+                                        El cannabidiol (CDB) es un compuesto que se encuentra en la flor resinosa del cannabis ...
+                                    </p>
                                     
                                     <Link href="/blog-details">
                                         <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
+                                            Leer más <i className="flaticon-add"></i>
                                         </a>
                                     </Link>
                                 </div>
                             </div>
                         </div>
 
+                        {/* Card */}
                         <div className="col-lg-4 col-md-6">
                             <div className="single-blog-post">
                                 <div className="entry-thumbnail">
                                     <Link href="/blog-details">
                                         <a>
-                                            <img src="/images/blog/blog3.jpg" alt="image" />
+                                            <img src="/images/novedades/thumb.jpg" alt="image" />
                                         </a>
                                     </Link>
                                 </div>
@@ -98,36 +111,42 @@ class BlogThreeGrid extends Component {
                                     <div className="entry-meta">
                                         <ul>
                                             <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
+                                                <Link href="/novedades/#">
+                                                    <a>Aurora</a>
                                                 </Link>
                                             </li>
-                                            <li>March 12, 2020</li>
+                                            <li>Agosto 13, 2021</li>
                                         </ul>
                                     </div>
 
                                     <h3>
                                         <Link href="/blog-details">
-                                            <a>Here are the 5 most telling signs of micromanagement</a>
+                                            <a className="text-primary">
+                                                Título largo de la noticia en dos líneas
+                                            </a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+
+                                    <p>
+                                        El cannabidiol (CDB) es un compuesto que se encuentra en la flor resinosa del cannabis ...
+                                    </p>
                                     
                                     <Link href="/blog-details">
                                         <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
+                                            Leer más <i className="flaticon-add"></i>
                                         </a>
                                     </Link>
                                 </div>
                             </div>
                         </div>
 
+                        {/* Card */}
                         <div className="col-lg-4 col-md-6">
                             <div className="single-blog-post">
                                 <div className="entry-thumbnail">
                                     <Link href="/blog-details">
                                         <a>
-                                            <img src="/images/blog/blog4.jpg" alt="image" />
+                                            <img src="/images/novedades/thumb.jpg" alt="image" />
                                         </a>
                                     </Link>
                                 </div>
@@ -136,36 +155,42 @@ class BlogThreeGrid extends Component {
                                     <div className="entry-meta">
                                         <ul>
                                             <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
+                                                <Link href="/novedades/#">
+                                                    <a>Aurora</a>
                                                 </Link>
                                             </li>
-                                            <li>March 13, 2020</li>
+                                            <li>Agosto 13, 2021</li>
                                         </ul>
                                     </div>
 
                                     <h3>
                                         <Link href="/blog-details">
-                                            <a>Add And Show Image With Size From Elementor Widget</a>
+                                            <a className="text-primary">
+                                                Título largo de la noticia en dos líneas
+                                            </a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+
+                                    <p>
+                                        El cannabidiol (CDB) es un compuesto que se encuentra en la flor resinosa del cannabis ...
+                                    </p>
                                     
                                     <Link href="/blog-details">
                                         <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
+                                            Leer más <i className="flaticon-add"></i>
                                         </a>
                                     </Link>
                                 </div>
                             </div>
                         </div>
 
+                        {/* Card */}
                         <div className="col-lg-4 col-md-6">
                             <div className="single-blog-post">
                                 <div className="entry-thumbnail">
                                     <Link href="/blog-details">
                                         <a>
-                                            <img src="/images/blog/blog5.jpg" alt="image" />
+                                            <img src="/images/novedades/thumb.jpg" alt="image" />
                                         </a>
                                     </Link>
                                 </div>
@@ -174,36 +199,42 @@ class BlogThreeGrid extends Component {
                                     <div className="entry-meta">
                                         <ul>
                                             <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
+                                                <Link href="/novedades/#">
+                                                    <a>Aurora</a>
                                                 </Link>
                                             </li>
-                                            <li>March 14, 2020</li>
+                                            <li>Agosto 13, 2021</li>
                                         </ul>
                                     </div>
 
                                     <h3>
                                         <Link href="/blog-details">
-                                            <a>How To The Active Menu Based On URL In Next.JS?</a>
+                                            <a className="text-primary">
+                                                Título largo de la noticia en dos líneas
+                                            </a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+
+                                    <p>
+                                        El cannabidiol (CDB) es un compuesto que se encuentra en la flor resinosa del cannabis ...
+                                    </p>
                                     
                                     <Link href="/blog-details">
                                         <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
+                                            Leer más <i className="flaticon-add"></i>
                                         </a>
                                     </Link>
                                 </div>
                             </div>
                         </div>
 
+                        {/* Card */}
                         <div className="col-lg-4 col-md-6">
                             <div className="single-blog-post">
                                 <div className="entry-thumbnail">
                                     <Link href="/blog-details">
                                         <a>
-                                            <img src="/images/blog/blog6.jpg" alt="image" />
+                                            <img src="/images/novedades/thumb.jpg" alt="image" />
                                         </a>
                                     </Link>
                                 </div>
@@ -212,56 +243,63 @@ class BlogThreeGrid extends Component {
                                     <div className="entry-meta">
                                         <ul>
                                             <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
+                                                <Link href="/novedades/#">
+                                                    <a>Aurora</a>
                                                 </Link>
                                             </li>
-                                            <li>March 14, 2020</li>
+                                            <li>Agosto 13, 2021</li>
                                         </ul>
                                     </div>
 
                                     <h3>
                                         <Link href="/blog-details">
-                                            <a>Instagram Feed Add To Your WordPress Site</a>
+                                            <a className="text-primary">
+                                                Título largo de la noticia en dos líneas
+                                            </a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+
+                                    <p>
+                                        El cannabidiol (CDB) es un compuesto que se encuentra en la flor resinosa del cannabis ...
+                                    </p>
                                     
                                     <Link href="/blog-details">
                                         <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
+                                            Leer más <i className="flaticon-add"></i>
                                         </a>
                                     </Link>
                                 </div>
                             </div>
                         </div>
+
+
 
                         {/* Pagination */}
                         <div className="col-lg-12 col-sm-12">
                             <div className="pagination-area">
-                                <Link href="/blog/#">
+                                <Link href="/novedades/#">
                                     <a className="prev page-numbers">
                                         <i className="fas fa-angle-double-left"></i>
                                     </a>
                                 </Link>
 
-                                <Link href="/blog/#">
+                                <Link href="/novedades/#">
                                     <a className="page-numbers">1</a>
                                 </Link>
 
-                                <Link href="/blog/#">
+                                <Link href="/novedades/#">
                                     <a className="page-numbers current">2</a>
                                 </Link>
 
-                                <Link href="/blog/#">
+                                <Link href="/novedades/#">
                                     <a className="page-numbers">3</a>
                                 </Link>
 
-                                <Link href="/blog/#">
+                                <Link href="/novedades/#">
                                     <a className="page-numbers">4</a>
                                 </Link>
 
-                                <Link href="/blog/#">
+                                <Link href="/novedades/#">
                                     <a className="next page-numbers">
                                         <i className="fas fa-angle-double-right"></i>
                                     </a>
@@ -270,41 +308,7 @@ class BlogThreeGrid extends Component {
                         </div>
                     </div>
                 </div>
- 
-                {/* Shape Images */}
-                <div className="shape-img2">
-                    <img src="/images/shape/shape2.svg" alt="image" />
-                </div>
-                <div className="shape-img3">
-                    <img src="/images/shape/shape3.png" alt="image" />
-                </div>
-                <div className="shape-img4">
-                    <img src="/images/shape/shape4.svg" alt="image" />
-                </div>
-                <div className="shape-img5">
-                    <img src="/images/shape/shape5.svg" alt="image" />
-                </div>
-                <div className="shape-img7">
-                    <img src="/images/shape/shape3.png" alt="image" />
-                </div>
-                <div className="dot-shape1">
-                    <img src="/images/shape/dot1.png" alt="image" />
-                </div>
-                <div className="dot-shape2">
-                    <img src="/images/shape/dot2.png" alt="image" />
-                </div>
-                <div className="dot-shape2">
-                    <img src="/images/shape/dot3.png" alt="image" />
-                </div>
-                <div className="dot-shape2">
-                    <img src="/images/shape/dot4.png" alt="image" />
-                </div>
-                <div className="dot-shape2">
-                    <img src="/images/shape/dot5.png" alt="image" />
-                </div>
-                <div className="dot-shape2">
-                    <img src="/images/shape/dot6.png" alt="image" />
-                </div>
+
             </section>
         );
     }

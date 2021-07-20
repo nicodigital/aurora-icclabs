@@ -13,12 +13,13 @@ class Footer extends Component {
                         <div className="col-lg-3 col-md-6 col-sm-6">
                             <div className="single-footer-widget">
                                 <div className="logo">
-                                    <a href="/">
-                                        <img className="w-75" src="/images/aurora-logo-footer.svg" alt="Aurora" />
+                                    <a href="/" className="d-block">
+                                        <img className="w-50 d-none d-sm-block" src="/images/logos/aurora-logo-footer.svg" alt="Aurora" />
+                                        <img className="w-100 d-sm-none" src="/images/logos/aurora-logo-light.svg" alt="Aurora" />
                                     </a>
                                 </div>
 
-                                <ul className="social">
+                                <ul className="social mb-5 mb-md-0">
                                     <li>
                                         <Link href="/#">
                                             <a target="_blank">
@@ -51,7 +52,7 @@ class Footer extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-2 col-md-6 col-sm-6">
+                        <div className="col-lg-2 col-md-6 col-6">
                             <div className="single-footer-widget">
                                 <h3>Contacto</h3>
 
@@ -65,7 +66,7 @@ class Footer extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-2 col-md-6 col-sm-6">
+                        <div className="col-lg-2 col-md-6 col-sm-6 d-none d-md-block">
                             <div className="single-footer-widget">
                                 <h3>Menú</h3>
 
@@ -104,11 +105,11 @@ class Footer extends Component {
                             </div>
                         </div>
 
-                        <div className="col-lg-2 col-md-6 col-sm-6">
+                        <div className="col-lg-2 col-md-6 col-6">
                             <div className="single-footer-widget">
                                 <h3>Distribuye</h3>
-
-                                <ul className="quick-links-list">
+                                <img className="apiter d-md-none" src="images/logos/apiter-logo-color-1.svg" alt="Apiter" />
+                                <ul className="quick-links-list d-none d-md-block">
                                     <li>Uruguay</li>
                                     <li>Ruta 101, km 27,500</li>
                                     <li>Canelones</li>
@@ -121,7 +122,7 @@ class Footer extends Component {
                         </div>
                         <div className="col-lg-2 col-md-6 col-sm-6">
                             <div className="single-footer-widget">
-                                <img className="apiter" src="images/apiter-logo-color-1.svg" alt="Apiter" />
+                                <img className="apiter d-none d-md-block" src="images/logos/apiter-logo-color-1.svg" alt="Apiter" />
                                 <ul className="quick-links-list">
                                         <li>Argentina</li>
                                         <li>Monseñor Larumbe, 1620</li>
@@ -138,18 +139,18 @@ class Footer extends Component {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6 col-sm-6">
-                                <p>Copyright &copy;{currentYear} Aurora. All Rights Reserved <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>.</p>
+                                <p>Copyright &copy;{currentYear} Aurora. <br className="d-sm-none"/> All Rights Reserved.</p>
                             </div>
 
                             <div className="col-lg-6 col-md-6 col-sm-6">
                                 <ul>
                                     <li>
-                                        <Link href="/privacy-policy">
+                                        <Link href="#">
                                             <a>Privacy Policy</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/terms-conditions">
+                                        <Link href="#">
                                             <a>Terms & Conditions</a>
                                         </Link>
                                     </li>

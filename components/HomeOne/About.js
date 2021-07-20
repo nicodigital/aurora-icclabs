@@ -7,11 +7,11 @@ class About extends Component {
             <section id="bidiol" className="about-area ptb-110">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6 col-md-12">
-                            <div className="d-flex justify-content-between">
-                                <figure>
+                        <div className="col-lg-6 col-md-12 pt-5 pt-md-0">
+                            <div className="d-flex flex-column flex-md-row justify-content-between">
+                                <figure className="col-8 col-sm-4 mx-auto d-flex flex-column align-items-center">
                                     <img src="/images/home/bidiol-logo-3-10.svg" alt="Bidiol 3 10" />
-                                    <figcaption className="mt-3">
+                                    <figcaption className="mt-3 align-self-start">
                                         BIDIOL es una <br/>
                                         marca registrada por <br/>
                                         AURORA / ICC Labs <br/>
@@ -27,7 +27,7 @@ class About extends Component {
                         <div className="col-lg-6 col-md-12">
                             <div className="about-content">
                                 <h2 className="text-secondary">
-                                    El primer aceite de CBD producido <br/>
+                                    El primer aceite de CBD producido <br className="d-none d-sm-block"/>
                                     integramente en Uruguay
                                 </h2>
                                 <p>

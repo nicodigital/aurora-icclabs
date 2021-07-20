@@ -30,8 +30,9 @@ class UsoCBD extends Component {
                                 <li>Ansiedad o depresión (1)</li>
                             </ul>
                         </div>
-                        <div className="col-sm-6 col-lg-6 offset-lg-2">
-                            <img src="./images/home/evidenciaCBD.jpg" alt=""/>
+                        <div className="col-sm-6 col-lg-6 offset-lg-2 mt-5 mt-md-0">
+
+                            <img className="mobile-wide-fit" src="./images/home/evidenciaCBD.jpg" alt=""/>
 
                             <h2 className="h3 text-light my-5">
                                 El CBD en el control de síntomas (4)

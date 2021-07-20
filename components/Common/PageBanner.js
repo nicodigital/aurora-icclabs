@@ -9,7 +9,7 @@ class PageBanner extends Component {
         return (
             <div className={`page-title-area ${bgImgClass}`}>
                 <div className="container">
-                    <div className="page-title-content">
+                    <div className="page-title-content col-lg-6">
                         <h2>{pageTitle}</h2>
                         <ul>
                             <li>

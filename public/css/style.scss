@@ -92,7 +92,7 @@ $optional-color: var(--color-2);
 $white-color: #ffffff;
 $black-color: #212529;
 $paragraph-color: #000;
-$font-size: 16px;
+$font-size: 1.2rem;
 $transition: .5s;
 
 body {
@@ -102,6 +102,7 @@ body {
     font-family: $main-font-family;
     line-height: 1 !important;
     color: $paragraph-color;
+    overflow-x: hidden;
 }
 a {
     display: inline-block;
@@ -160,7 +161,7 @@ p {
     font-size: $font-size;
     color: $paragraph-color;
     margin-bottom: 15px;
-    line-height: 1.8;
+    line-height: 1.5;
 
     &:last-child {
         margin-bottom: 0;
@@ -501,7 +502,7 @@ Navbar Area CSS
                 }
                 a {
                     font: {
-                        size: 18px;
+                        size: 1.2rem;
                     }
                     color: $white-color;
                     text-transform: capitalize;
@@ -850,7 +851,7 @@ Navbar Area CSS
     transition: $transition;
 
     &.is-sticky {
-        position: fixed;
+        position: absolute;
         top: 0;
         left: 0;
         width: 100%;
@@ -862,7 +863,7 @@ Navbar Area CSS
 
         .main-nav {
             background-color: $white-color;
-            padding-bottom: 0;
+            padding-bottom: 10px;
             .navbar {
                 .navbar-nav {
                     .nav-item {
@@ -1482,25 +1483,6 @@ Main Banner Area CSS
     text-align: center;
 }
 
-/*================================================
-Featured Services Area CSS
-=================================================*/
-.featured-services-area {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: auto;
-    background-color: transparent;
-
-    .circle {
-        height: 3.6rem;
-        width: 3.6rem;
-        border: 2px solid var(--color-1);
-        border-radius: 100%;
-    }
-
-}
 .single-featured-services-box {
     position: relative;
     height:100%;
@@ -2830,7 +2812,6 @@ Blog Area CSS
         a {
             img {
                 transition: $transition;
-                border-radius: 5px;        
             }
         }
     }
@@ -2884,10 +2865,10 @@ Blog Area CSS
         }
         h3 {
             margin-bottom: 0;
-            line-height: 1.4;
-            text-transform: capitalize;
+            line-height: 1.3;
+            width: 90%;
             font: {
-                size: 23px;
+                size: 28px;
                 weight: 700;
             }
         }
@@ -3053,7 +3034,7 @@ Blog Details Area CSS
         }
         border: {
             top: 1px solid #eeeeee;
-            bottom: 1px solid #eeeeee;
+            // bottom: 1px solid #eeeeee;
         }
         margin: {
             top: 30px;
@@ -3097,9 +3078,8 @@ Blog Details Area CSS
             }
         }
         .article-share {
-            -ms-flex: 0 0 50%;
-            -webkit-box-flex: 0;
-            flex: 0 0 50%;
+            display: flex;
+            justify-content: center;
             max-width: 50%;
             
             .social {
@@ -3648,6 +3628,12 @@ Page Title Area CSS
         }
     }
 
+    &.bg-novedades{
+        background: {
+            image: url(/images/novedades/bg-heading.jpg);
+        }
+    }
+
     &.item-bg1 {
         background: {
             image: url(/images/page-title-bg1.jpg);
@@ -3757,6 +3743,8 @@ Pagination Area CSS
 Sidebar Area CSS
 =================================================*/
 .widget-area {
+    position: sticky;
+    top:100px;
     padding-left: 15px;
     .widget {
         margin-top: 30px;
@@ -3912,11 +3900,9 @@ Sidebar Area CSS
                 color: $paragraph-color;
                 padding-left: 14px;
                 line-height: 1.5;
-                text-transform: capitalize;
                 font: {
                     weight: 700;
                     size: 16px;
-                    family: $optional-font-family;
                 }
                 &:last-child {
                     margin-bottom: 0;
@@ -4843,7 +4829,7 @@ Footer Area CSS
         li {
             margin-bottom: 12px;
             color: $white-color;
-            font-size: 14px;
+            font-size: 1rem;
 
             a {
                 display: inline-block;
@@ -4917,7 +4903,7 @@ Footer Area CSS
             margin-left: 25px;
             position: relative;
             color: $white-color;
-            font-size: 14px;
+            font-size: 1rem;
             line-height: initial;
 
             a {

@@ -20,7 +20,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "C:\\Users\\Nicolas\\Desktop\\NODE\\aurora\\components\\Shared\\GoTop.js";
+var _jsxFileName = "C:\\Users\\Nicolas\\Desktop\\NODE\\aurora-icclabs\\components\\Shared\\GoTop.js";
 
 class GoTop extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
   constructor(props) {
@@ -107,7 +107,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "C:\\Users\\Nicolas\\Desktop\\NODE\\aurora\\components\\Shared\\Loader.js";
+var _jsxFileName = "C:\\Users\\Nicolas\\Desktop\\NODE\\aurora-icclabs\\components\\Shared\\Loader.js";
 
 
 class Loader extends react__WEBPACK_IMPORTED_MODULE_1__.Component {
@@ -188,7 +188,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Shared_GoTop__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Shared/GoTop */ "./components/Shared/GoTop.js");
 
 
-var _jsxFileName = "C:\\Users\\Nicolas\\Desktop\\NODE\\aurora\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\Nicolas\\Desktop\\NODE\\aurora-icclabs\\pages\\_app.js";
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 

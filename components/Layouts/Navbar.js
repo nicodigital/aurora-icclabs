@@ -54,8 +54,8 @@ class Navbar extends Component {
                             <nav className="navbar navbar-expand-md navbar-light">
                                 <Link href="/">
                                     <a className="navbar-brand">
-                                        <img src="/images/aurora-logo-light.svg" className="main-logo" alt="logo" />
-                                        <img src="/images/aurora-logo-dark.svg" className="optional-logo" alt="logo" />
+                                        <img src="/images/logos/aurora-logo-light.svg" className="main-logo" alt="logo" />
+                                        <img src="/images/logos/aurora-logo-dark.svg" className="optional-logo" alt="logo" />
                                     </a>
                                 </Link>
 
@@ -108,7 +108,7 @@ class Navbar extends Component {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="./medicos">
+                                            <Link href="./area-medica">
                                                 <a className="nav-link" >
                                                     Médicos 
                                                 </a>

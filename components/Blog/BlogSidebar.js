@@ -5,33 +5,22 @@ class BlogSidebar extends Component {
     render() {
         return (
             <div className="widget-area" id="secondary">
-                {/* Search form */}
-                <div className="widget widget_search">
-                    <form className="search-form">
-                        <label>
-                            <input type="search" className="search-field" placeholder="Search..." />
-                        </label>
-                        <button type="submit" className="search-submit">
-                            <i className="fas fa-search"></i>
-                        </button>
-                    </form>
-                </div>
 
                 {/* Popular posts */}
                 <div className="widget widget_posts_thumb">
-                    <h3 className="widget-title">Popular posts</h3>
+                    <h3 className="widget-title">Noticias populares</h3>
 
                     <article className="item">
-                        <Link href="/blog-details">
+                        <Link href="/articulo">
                             <a className="thumb">
-                                <span className="fullimage cover bg1" role="img"></span>
+                                <img src="/images/novedades/thumb-small.jpg" alt="image" />
                             </a>
                         </Link>
                         <div className="info">
-                            <time>March 15, 2020</time>
+                            <time>Septiembre 15, 2021</time>
                             <h4 className="title usmall">
-                                <Link href="/blog-details">
-                                    <a>The Best Marketing top use Management Tools</a>
+                                <Link href="/articulo">
+                                    <a>Título largo de la noticia con aproximadamente diez palabras</a>
                                 </Link>
                             </h4>
                         </div>
@@ -40,14 +29,16 @@ class BlogSidebar extends Component {
                     </article>
 
                     <article className="item">
-                        <a href="/blog-details" className="thumb">
-                            <span className="fullimage cover bg2" role="img"></span>
-                        </a>
+                        <Link href="/articulo">
+                            <a className="thumb">
+                                <img src="/images/novedades/thumb-small.jpg" alt="image" />
+                            </a>
+                        </Link>
                         <div className="info">
-                            <time>March 16, 2020</time>
+                            <time>Septiembre 15, 2021</time>
                             <h4 className="title usmall">
-                                <Link href="/blog-details">
-                                    <a>Top 21 Must-Read Blogs For Creative Agencies</a>
+                                <Link href="/articulo">
+                                    <a>Título largo de la noticia con aproximadamente diez palabras</a>
                                 </Link>
                             </h4>
                         </div>
@@ -56,14 +47,16 @@ class BlogSidebar extends Component {
                     </article>
 
                     <article className="item">
-                        <a href="/blog-details" className="thumb">
-                            <span className="fullimage cover bg3" role="img"></span>
-                        </a>
+                        <Link href="/articulo">
+                            <a className="thumb">
+                                <img src="/images/novedades/thumb-small.jpg" alt="image" />
+                            </a>
+                        </Link>
                         <div className="info">
-                            <time>March 17, 2020</time>
+                            <time>Septiembre 15, 2021</time>
                             <h4 className="title usmall">
-                                <Link href="/blog-details">
-                                    <a>Protect your workplace from cyber attacks</a>
+                                <Link href="/articulo">
+                                    <a>Título largo de la noticia con aproximadamente diez palabras</a>
                                 </Link>
                             </h4>
                         </div>
@@ -74,36 +67,36 @@ class BlogSidebar extends Component {
 
                 {/* Recent posts */}
                 <div className="widget widget_recent_entries">
-                    <h3 className="widget-title">Recent posts</h3>
+                    <h3 className="widget-title">Publicaciones recientes</h3>
 
                     <ul>
                         <li>
-                            <Link href="/blog-details">
-                                <a>The security risks of changing package owners</a>
+                            <Link href="/articulo">
+                                <a>Título largo de la noticia con aproximadamente diez palabras</a>
                             </Link>
                             <span className="post-date">March 15, 2020</span>
                         </li>
                         <li>
-                            <Link href="/blog-details">
-                                <a>Tips to protecting business and Family</a>
+                            <Link href="/articulo">
+                                <a>Título largo de la noticia con aproximadamente diez palabras</a>
                             </Link>
                             <span className="post-date">March 16, 2020</span>
                         </li>
                         <li>
-                            <Link href="/blog-details">
-                                <a>Protect your workplace from cyber attacks</a>
+                            <Link href="/articulo">
+                                <a>Título largo de la noticia con aproximadamente diez palabras</a>
                             </Link>
                             <span className="post-date">March 17, 2020</span>
                         </li>
                         <li>
-                            <Link href="/blog-details">
-                                <a>Business debit Fees to increase in 2020</a>
+                            <Link href="/articulo">
+                                <a>Título largo de la noticia con aproximadamente diez palabras</a>
                             </Link>
                             <span className="post-date">March 18, 2020</span>
                         </li>
                         <li>
-                            <Link href="/blog-details">
-                                <a>10 tips to reduce your card processing costs</a>
+                            <Link href="/articulo">
+                                <a>Título largo de la noticia con aproximadamente diez palabras</a>
                             </Link>
                             <span className="post-date">March 19, 2020</span>
                         </li>
@@ -112,22 +105,22 @@ class BlogSidebar extends Component {
 
                 {/* Categories */}
                 <div className="widget widget_categories">
-                    <h3 className="widget-title">Categories</h3>
+                    <h3 className="widget-title">Categorías</h3>
 
                     <ul>
                         <li>
                             <Link href="/blog2/#">
-                                <a>Business</a>
+                                <a>Sustentabilidad</a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/blog2/#">
-                                <a>Privacy</a>
+                                <a>Tecnología</a>
                             </Link>
                         </li>
                         <li>
                             <Link href="/blog2/#">
-                                <a>Technology </a>
+                                <a>Eventos </a>
                             </Link>
                         </li>
                         <li>
@@ -135,44 +128,7 @@ class BlogSidebar extends Component {
                                 <a>Tips</a>
                             </Link>
                         </li>
-                        <li>
-                            <Link href="/blog2/#">
-                                <a>Uncategorized</a>
-                            </Link>
-                        </li>
                     </ul>
-                </div>
-
-                {/* Tags */}
-                <div className="widget widget_tag_cloud">
-                    <h3 className="widget-title">Tags</h3>
-
-                    <div className="tagcloud">
-                        <Link href="/blog2/#">
-                            <a>IT <span className="tag-link-count">(3)</span></a>
-                        </Link>
-                        <Link href="/blog2/#">
-                            <a>React <span className="tag-link-count">(3)</span></a>
-                        </Link>
-                        <Link href="/blog2/#">
-                            <a>Games <span className="tag-link-count">(2)</span></a>
-                        </Link>
-                        <Link href="/blog2/#">
-                            <a>Development <span className="tag-link-count">(2)</span></a>
-                        </Link>
-                        <Link href="/blog2/#">
-                            <a>Design <span className="tag-link-count">(1)</span></a>
-                        </Link>
-                        <Link href="/blog2/#">
-                            <a>Apps <span className="tag-link-count">(1)</span></a>
-                        </Link>
-                        <Link href="/blog2/#">
-                            <a>Marketing <span className="tag-link-count">(1)</span></a>
-                        </Link>
-                        <Link href="/blog2/#">
-                            <a>Tips <span className="tag-link-count">(2)</span></a>
-                        </Link>
-                    </div>
                 </div>
             </div>
         );

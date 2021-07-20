@@ -14,6 +14,11 @@ $value_five: 992px;
 $value_six: 1199px;
 $value_seven: 1550px;
 
+
+html {
+    font-size: 12px;
+}
+
 /* From small devices */
 .navbar-brand{
     img{
@@ -21,19 +26,47 @@ $value_seven: 1550px;
     }
 }
 
+.navbar-toggler{
+    position: relative;
+    top: 7px;
+}
+
+/*================================================
+Featured Services Area CSS
+=================================================*/
+.featured-services-area {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+
+    .circle {
+        height: 3.6rem;
+        width: 3.6rem;
+        margin: 0 auto;
+        border: 2px solid var(--color-1);
+        border-radius: 100%;
+    }
+
+}
+
 /* Max width 767px */
 @media only #{$media} and ($feature_max : $value_two) {
 
     :root{
-        --logo-width:10rem;
+        --logo-width:13rem;
     }
 
-    body {
+    html {
         font-size: 14px;
     }
-    p {
-        font-size: 14px;
+
+    body, p {
+        font-size: 1.2rem;
     }
+
     .section-title {
         margin-bottom: 40px;
 
@@ -52,7 +85,7 @@ $value_seven: 1550px;
     .faq-contact-form {
         form {
             .btn {
-                font-size: 15px;
+                font-size: 1.2rem;
             }
         }
     }
@@ -64,7 +97,7 @@ $value_seven: 1550px;
     }
     .btn {
         padding: 10px 30px 12px;
-        font-size: 14px;
+        font-size: 1.2rem;
     }
 
     .main-banner {
@@ -91,7 +124,7 @@ $value_seven: 1550px;
         }
         p {
             margin-top: 20px;
-            font-size: 13px;
+            font-size: 1rem;
             max-width: 100%;
         }
         .btn-box {
@@ -99,7 +132,7 @@ $value_seven: 1550px;
 
             .optional-btn {
                 margin-left: 15px;
-                font-size: 14px;
+                font-size: 1.2rem;
             }
         }
     }
@@ -986,36 +1019,26 @@ $value_seven: 1550px;
     }
 
     .footer-area {
-        padding-top: 60px;
+        padding-top: 0;
     }
     .single-footer-widget {
+
         .logo {
-            margin-bottom: 15px;
+            margin-bottom: 7rem;
             img {
-                max-width: 130px;
+                max-width: 85%;
             }
         }
-        p {
-            font-size: 13px;
-        }
+
         h3 {
             margin-bottom: 20px;
             padding-bottom: 8px;
-            font-size: 20px;
+            font-size: 1.5rem;
         }
-        .footer-services-list {
+   
+        .quick-links-list, .footer-contact-list, .footer-services-list  {
             li {
-                font-size: 13px;
-            }
-        }
-        .quick-links-list {
-            li {
-                font-size: 13px;
-            }
-        }
-        .footer-contact-list {
-            li {
-                font-size: 13px;
+                font-size: 1rem;
             }
         }
     }
@@ -1028,7 +1051,7 @@ $value_seven: 1550px;
             margin-top: 10px;
 
             li {
-                font-size: 13px;
+                font-size: 1rem;
             }
         }
     }
@@ -1060,6 +1083,7 @@ $value_seven: 1550px;
         
         &.is-sticky {
             box-shadow: 0 7px 13px 0 rgba(0, 0, 0, .1);
+            
         }
     }
 
@@ -1068,9 +1092,9 @@ $value_seven: 1550px;
             .navbar-collapse {
                 border-top: 1px solid #eee;
                 padding-top: 0;
-                margin-top: 12px;
+                margin-top: 30px;
                 overflow-y: auto;
-                max-height: 60vh;
+                max-height: 70vh;
            
                 &::-webkit-scrollbar {
                     width: 7px;
@@ -1091,8 +1115,8 @@ $value_seven: 1550px;
             .navbar-nav {
                 padding-right: 15px;
                 .nav-item {
-                    padding-top: 5px;
-                    padding-bottom: 5px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
         
                     a {
                         font-size: 1.3rem;
@@ -1132,25 +1156,17 @@ $value_seven: 1550px;
             } 
             .others-options {
                 margin-left: 0;
-                margin-top: 5px;
+                margin-top: 100px;
 
                 .option-item {
-                    top: 8px;
-                    position: absolute;
-                    right: 60px;
-                    .search-btn {
-                       color: #333;
-                    }
-                    .close-btn {
-                        color: #333;
+                    .search-btn, .close-btn, a {
+                       color: #000;
                     }
                 }
                 .cart-btn {
-                    color: #333;
-                    position: absolute;
-                    right: 100px;
-                    top: 10px;
+                    color: #000;
                 }
+
                 .btn-primary {
                     margin-left: 0;
                     background-color: #f7f7f7;
@@ -1765,6 +1781,13 @@ $value_seven: 1550px;
             }
         }
     }
+
+    .mobile-wide-fit{
+        width: calc(100% + var(--bs-gutter-x,.75rem)*2 );
+        margin-left: calc(-1 * var(--bs-gutter-x,.75rem));
+        max-width:initial;
+    }
+
 }
 
 /* Min width 576px to Max width 767px */
@@ -2362,7 +2385,7 @@ $value_seven: 1550px;
     }
     .single-footer-widget {
         h3 {
-            font-size: 21px;
+            font-size: 1.4rem;
         }
     }
     .copyright-area {
@@ -3124,9 +3147,28 @@ $value_seven: 1550px;
         padding: 2rem 6rem;
     }
 
+    #navbar.is-sticky{
+
+        position: fixed;
+
+        .navbar ul, .others-options{
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+    }
+
     .navbar-expand-md .navbar-collapse {
         position: relative;
         top: 10px;
+    }
+
+    .featured-services-area .circle {
+            margin: auto auto auto 0;
+    }
+
+    .single-footer-widget .logo{
+        margin-bottom: 3rem;
     }
 
     /* Home */
